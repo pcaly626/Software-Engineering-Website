@@ -509,10 +509,18 @@ input[type=submit] {
 	-moz-transition: all 0.1s linear;
 	transition: all 0.1s linear;
 }
-.panel-login>.panel-heading a.active{
-	color: #029f5b;
+/*<!-- Login and Register Area -->*/
+.panel-login>.panel-heading a{
+	color: black;
 	font-size: 18px;
 }
+
+.col-xs-6{
+		display: inline-block;
+		margin-left: 10px;
+
+}
+
 .panel-login>.panel-heading hr{
 	margin-top: 10px;
 	margin-bottom: 0px;
